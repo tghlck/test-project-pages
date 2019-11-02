@@ -42,7 +42,7 @@ a {
 
 .hero-section .hero-section-text {
     color: lightgoldenrodyellow;
-    text-shadow: 1px 1px 2px #0a0a0a;
+    text-shadow: 6px 6px 12px #0a0a0a;
 }
 
 .infoContainer {
@@ -51,7 +51,15 @@ a {
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
+    padding-bottom: 25px;
   
+}
+
+.button.round {
+  border-radius: 5000px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+  margin-top: 16px;
 }
 
 .marketing-site-content-section {
@@ -67,6 +75,7 @@ a {
   .marketing-site-content-section .button.round {
     border-radius: 5000px;
     text-transform: uppercase;
+    margin-top: 5px;
     margin-bottom: 0;
   }
   
