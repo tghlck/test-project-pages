@@ -157,7 +157,7 @@ a {
   }
   
   .testimonial-block-vertical-quote p {
-    margin-bottom: 0;
+    margin-bottom: 30px;
   }
   
   .testimonial-block-vertical-quote::after {
