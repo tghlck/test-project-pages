@@ -3,6 +3,10 @@
     border-bottom: solid 5px #0a0a0a;
 }
 
+.top-bar .ul {
+  background-color: #2c3840;
+}
+
 .top-bar .top-bar-left .menu-text {
     background-color: #2c3840;
     color: white;
@@ -17,8 +21,9 @@ a {
     color: white;
 }
 
+
 .hero-section {
-    background: url("https://static.pexels.com/photos/248064/pexels-photo-248064.jpeg") 50% no-repeat;
+    background: url("http://getwallpapers.com/wallpaper/full/9/b/b/632371.jpg") 50% no-repeat;
     background-size: cover;
     height: 40vh;
     border-bottom: #0a0a0a solid 20px;
@@ -32,21 +37,21 @@ a {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .hero-section .hero-section-text {
-    color: #fefefe;
+    color: lightgoldenrodyellow;
     text-shadow: 1px 1px 2px #0a0a0a;
 }
 
 .infoContainer {
     border: solid 2px #2c3840;
     align-content: center;
-    
     margin-right: auto;
     margin-left: auto;
     padding: 10px;
-    max-width: 80%;
+  
 }
 
 .marketing-site-content-section {
@@ -189,6 +194,39 @@ a {
   }
   
   
+.social-footer {
+  padding: 1rem;
+  color: white;
+  background: #2c3840;
+  border-top: solid 5px #0a0a0a;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+
+.bottom-bar .ul {
+background-color: #2c3840;
+}
+
+.bottom-bar .bottom-bar-left .menu-text {
+  background-color: #2c3840;
+  color: white;
+}
+
+.bottom-bar .bottom-bar-right .menu {
+  background-color: #2c3840;
+  color: white;
+}
+
+
+
 
   
   
