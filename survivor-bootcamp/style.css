@@ -21,9 +21,13 @@ a {
     color: white;
 }
 
+p {
+  font-size: small;
+}
 
 .hero-section {
-    background: url("http://getwallpapers.com/wallpaper/full/9/b/b/632371.jpg") 50% no-repeat;
+    background-image: url(assets/studyimg.jpg);
+    background-position: center;
     background-size: cover;
     height: 40vh;
     border-bottom: #0a0a0a solid 20px;
@@ -60,6 +64,7 @@ a {
   text-transform: uppercase;
   margin-bottom: 6px;
   margin-top: 16px;
+  margin-right: 0rem;
 }
 
 .marketing-site-content-section {
@@ -157,7 +162,7 @@ a {
   }
   
   .testimonial-block-vertical-quote p {
-    margin-bottom: 30px;
+    margin-bottom: px;
   }
   
   .testimonial-block-vertical-quote::after {
