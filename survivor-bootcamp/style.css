@@ -25,6 +25,10 @@ p {
   font-size: small;
 }
 
+li {
+  font-size: small;
+}
+
 .hero-section {
     background-image: url(assets/studyimg.jpg);
     background-position: center;
@@ -42,6 +46,16 @@ p {
     -ms-flex-pack: center;
     justify-content: center;
     margin-bottom: 1rem;
+}
+
+.blog-hero {
+  background-image: url(assets/adi-goldstein-mDinBvq1Sfg-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 55vh;
+  text-align: center;
+  margin-bottom: 1rem;
+  border: #2c3840 solid 3px;
 }
 
 .hero-section .hero-section-text {
@@ -151,6 +165,7 @@ p {
 
   .testimonial-block-vertical {
     padding-bottom: 25px;
+    margin-bottom: 1rem;
   }
 
   .testimonial-block-vertical-quote {
