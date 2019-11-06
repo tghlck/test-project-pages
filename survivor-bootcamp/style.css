@@ -1,21 +1,24 @@
 .top-bar {
-    background-color: #2c3840;
+    background-color: #2c3840 !important;
     border-bottom: solid 5px #0a0a0a;
 }
 
-.top-bar .ul {
+.top-bar ul {
   background-color: #2c3840 !important;
 }
 
 .top-bar .top-bar-left .menu-text {
-    background-color: #2c3840;
+    background-color: #2c3840 !important;
     color: white;
 }
 
 .top-bar .top-bar-right .menu {
-    background-color: #2c3840;
+    background-color: #2c3840 !important;
     color: white;
 }
+
+
+
 
 a { 
     color: white;
